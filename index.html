@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /><link rel="styleshhet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+      body{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+
+      }
+        #home{
+            padding-top: 60px;
+            width: 100%;
+        }
+        #home img{
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+           justify-content: center;
+        }
+        .container{
+            width: 100%;
+            position: relative;
+            justify-content: left;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        #intro{
+          padding-top: 60px;
+            width: 700px;
+        }
+      
+        #aboutMe{
+          padding-top: 50px;
+          text-align: center;
+          background-image: url("download.jfif");
+          margin-left: auto;
+          margin-right: auto;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 25px;
+          margin-top: 25px;
+          height: 300px;
+          width: 800px;
+          margin-bottom: 100px;
+        }
+       #container {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+        }
+        #p{
+          width: 100%;
+       display: flex;
+       justify-content: center;
+       background-image: url("images\ \(2\).jfif");
+       border-radius: 25px;
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+        #buton{
+          width: 140px;
+        height: 40px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+         background: lightslategrey;
+          border: 0;
+        border-radius: 5px;
+        color: darkslategrey;
+        text-decoration: none;
+       
+        }
+        #button :hover{
+          background-color: black;
+        color: antiquewhite;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+    #button{
+      justify-content: center;
+      display: flex;
+      width: 100%;
+      text-decoration: none;
+      
+    }
+  
+    #my{
+      width: 150px;
+        height:200px;
+        background-color: white;
+        text-align: center;
+        padding: 40px 50px 70px;
+        margin: 5px;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    #projects{
+    
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-around;
+padding: 20px 40px;
+gap: 20px;
+background-image: url("images\ \(2\).jfif");
+background-repeat: no-repeat;
+background-size: cover;
+       
+    }
+    #projects h2{
+      width: 100%;
+      text-align: center;
+    }
+    .pro{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    #myBtn {
+  position: fixed; 
+  bottom: 40px; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  text-align: center;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 50%; 
+  font-size: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+#img{
+  width: 140px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 25%;
+  transition: 1s ease-in-out;
+  
+}
+#img:hover{
+  transform: skew(20 0px 200px);
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.829) , -10px -10px 0px rgba(129, 58, 131, 0.4);
+}
+#animate{
+  width: 140px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 25%;
+  transition: 1s ease-in-out;;
+}
+#animate:hover{
+  transform: skew(200px 200px);
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.829) , -10px -10px 0px rgba(129, 58, 131, 0.4);
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+.p{
+  text-align: center;
+}
+
+#skills{
+   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px 10px;
+  gap: 20px;
+
+  
+}
+   #skills h2{
+  text-align: center;
+  width: 100%;
+}
+  .ski{
+  display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .qwerty{
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+  
+   #skills p{
+  text-align: center;
+  
+}
+ #footer{
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+ background-image: url("qw.avif");
+ 
+ }
+ #copy{
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 250px;
+ }
+ #contact-me{
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 15px;
+ }
+ #contact-form{
+       width: 500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        color: blanchedalmond;
+        flex-direction: column;
+ }
+ .yourname{
+  border-radius: 40px;
+  border: none;
+  width: 500px;
+  text-align: left;
+  justify-content: center;
+  padding-top: auto;
+  padding-left: 10px;
+  padding-bottom: auto;
+ }
+ #submit{
+        color:lightsteelblue; 
+        border: 0;
+        border-radius: 5px;
+        background: black;
+        width: 140px;
+        height: 40px;
+        margin-top: 40px;
+        margin-left: auto;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        
+ }
+ #submit :hover{
+       color: rgb(4, 97, 66);
+       color: antiquewhite;
+        
+ }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-fixed">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#CODE CITY">CODE CITY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link "  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#projects">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            
+              
+            </ul>
+            
+          
+          </div>
+        </div>
+      </nav>
+      
+      <section id="home">
+        <div class="container">
+        <img class="animate__animated animate__rubberBand" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg">
+        <h4 class=" animate__animated animate__fadeInRight">Hi! my name is Maduabuchi Chiedozie Pascal, I  am a web developer based in lagos, Nigeria. 
+        </h4>
+        </div>
+      
+      </section>
+      <div id="button">
+        <button id="buton" type="submit"><a href="../my cv.rtf">My CV</a> </button>
+      </div>
+       <section id="aboutMe">
+       
+        <h2>About Me</h2>
+       I am currently a student at landmark university kwara state Omu-Aran Nigeria, with a Bsc of computer science in view.
+       I build and design responsive web 2 sites and design fintech applications. since I am a bit of a coding geek I often write codes with my free time trying to make myself better at what I love doing . 
+       Below are some of the projects I made. please feel free to contact me via any of my handles by clicking the social media handles at the footer of this site. 
+      </section>
+      <section id="projects"><h2>PROJECTS</h2>
+       <div class="pro"><a href="../2-css/portfolio.html"><img id="img" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg"></a><p>My first web portfolio</p></div>
+      <div class="pro"><a href="../2-css/animate.html "><img id="animate" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg"></a><p>Box animation using css</p></div>
+      <div class="pro"><a href="../3-javascript/javascript.html"> <img id="animate" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg"></a> <p>Reaction tester using javascript</p></div>
+      <div class="pro"><a href="../my works/Button Toggler.html"><img id="img" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg"></a><p>BUTTON TOGGLER</script></script></p></div> 
+      <div class="pro"><a href="../food hub/food hub.html"><img id="img" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/splash.jpg"></a><p>FOOD HUB</script></script></p></div> 
+    </section>
+    <container>
+      <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="ski"><img class="qwerty" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/h&c.png"><p>Expert</p></div>
+        <div class="ski"><img class="qwerty"  src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/js.png"><p>Junior</p></div>
+        <div class="ski"><img class="qwerty"  src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/tail.png"><p>Senior</p></div>
+        <div class="ski"><img class="qwerty" src="C:\Users\chied\OneDrive\Documents\the complete web developer course\images/php.jfif"><p>Beginner</p></div>
+
+      </section>
+    </container>
+<container>
+  <div id="footer">
+    <h2 id="contact-me">
+      Contact Me
+    </h2>
+    <form id="contact-form">
+     <label for="name"> NAME</label>
+     <input type="name" class="yourname" placeholder="Your Name">
+     <label for="name"> SUBJECT</label>
+     <input type="name" class="yourname" placeholder="Your Mesaage">
+     <label for="name"> E-MAIL</label>
+     <input type="name" class="yourname" placeholder="Your name @gmail.com">
+       <button id="submit" type="submit">Submit</button>
+    </form>
+   <p id="copy">This site &copy 2023 CODE CITY</p>
+   
+
+  </div>
+
+</container>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <script type="text/javascript">
+        let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+      </script>
+</body>
+</html>
