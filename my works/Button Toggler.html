@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+#paragraph{
+    text-align: center;
+    color: aqua;
+}
+#header{
+    color: antiquewhite;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+#toggle{
+    position: fixed;
+    top: 10px;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 20%; 
+    right: 10px;
+}
+ </style>
+</head>
+<body>
+    <h2 id="header">MY BUTTON TOOGLER CONENT</h2>
+    <p id="paragraph">lorem ipsum lorem ipsum
+        lorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ips
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum     lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum  lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+  lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsum
+        lorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+um
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsum        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+    </p>
+    <button id="toggle" type="reset">TOGGLE</button>
+    <script type="text/javascript">
+        let toggle = document.getElementById('toggle')
+        let paragraph = document.getElementById('paragraph')
+        toggle.addEventListener('click', () => {
+            if (document.body.style.backgroundColor == 'black') {
+            document.body.style.backgroundColor = 'aqua ';
+            paragraph.style.color = 'black'
+            }
+            else{
+                paragraph.style.color = 'aqua'
+            document.body.style.backgroundColor = 'black';
+            }
+        })
+    </script>
+    
+</body>
+</html>

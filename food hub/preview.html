@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            #searchdiv{
+           
+           max-height: 100px;
+           
+       }
+       #search{
+       margin-left: 1200px;
+       transform: translate(-50px,-30px);
+       }
+       .line{
+           top: 50px;
+           margin-right: 1200px;
+           border: 3px solid rgba(0, 0, 0, 0.6);
+           border-radius: 25px;
+           row-gap: 10px;
+       }
+       #preview{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100vw; 
+        background: url(./preview\ soup.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;      
+       }
+    </style>
+</head>
+<body>
+    
+ <div id="preview">
+    </div>
+    <div id="searchdiv">
+        <img class="line" src="./Line 1.svg">
+        <img class="line" src="./Line 3.svg">
+        <img class="line" src="./Line 2.svg">
+        <img id="search" src="./Vector.svg">
+       </div>
+      <a href="./home.html"><img src="./previous page 2.svg"></a> 
+</body>
+</html>
